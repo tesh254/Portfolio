@@ -1,11 +1,13 @@
 import React from "react";
-import Header from "../../Components/Header/Header";
+import Welcome from "../../Components/Welcome";
 import "./Home.scss";
 
 const Home = () => (
-    <div className="home">
-        <Header />
-    </div>
-)
+  <div className="home">
+    <section>
+      <Welcome />
+    </section>
+  </div>
+);
 
 export default Home;

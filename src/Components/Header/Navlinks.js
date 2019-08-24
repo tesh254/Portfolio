@@ -10,6 +10,9 @@ const Nav = () => (
             <li>
                 <NavLink to="/about">Projects</NavLink>
             </li>
+            <li>
+                <a href="https://werick.codes" target="_blank">Blog</a>
+            </li>
         </ul>
     </div>
 )

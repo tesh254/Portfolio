@@ -1,6 +1,9 @@
 @import "src/Assets/Scss/variables.scss";
 
 .header {
+    display: flex;
+    justify-content: center;
+    
     .top-links {
         margin: 25px;
 
@@ -34,6 +37,7 @@
                 a {
                     color: var(--secondary-color);
                     padding: 2px;
+                    font-weight: bold;
                 }
 
                 a:hover {

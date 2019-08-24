@@ -5,8 +5,10 @@ import "./Header.scss";
 
 const Header = () => (
   <header className="header">
-    <TopLinks />
-    <Nav />
+    <section>
+      <TopLinks />
+      <Nav />
+    </section>
   </header>
 );
 

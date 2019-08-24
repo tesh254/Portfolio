@@ -11,7 +11,7 @@ body {
   background: var(--primary-color);
   font-family: "Roboto Mono", monospace; }
 
-.home {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
+.footer {
+  padding-top: 2%;
+  color: var(--secondary-color);
+  padding-bottom: 2px; }

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+html {
+  --primary-color: white;
+  --secondary-color: #1a1919; }
+
+html[data-theme="dark"] {
+  --primary-color: #1a1919;
+  --secondary-color: white; }
+
+body {
+  background: var(--primary-color);
+  font-family: "Roboto Mono", monospace; }
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter {
+  padding: 15% 0; }
+  .typewriter h1 {
+    color: var(--secondary-color);
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 0.2em solid var(--secondary-color);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 2% auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; }
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent; }
+  50% {
+    border-color: var(--secondary-color); } }
+
+.comms {
+  border: 2px solid var(--secondary-color);
+  padding: 5px;
+  background: var(--primary-color);
+  border-radius: 5px;
+  color: var(--secondary-color); }
+  .comms h3 {
+    font-weight: bold; }
+  .comms ul {
+    list-style-type: none;
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    color: var(--secondary-color); }
+    .comms ul li {
+      cursor: pointer;
+      margin: 5px; }
+      .comms ul li a {
+        color: var(--secondary-color);
+        padding: 2px;
+        font-weight: bold;
+        font-size: 20pt; }
