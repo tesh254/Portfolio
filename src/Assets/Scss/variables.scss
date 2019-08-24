@@ -1,0 +1,21 @@
+// Font imports
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+// Scss variables
+$default-font: 'Roboto Mono', monospace;
+
+// toggle colors
+html {
+    --primary-color: white;
+    --secondary-color: #1a1919;
+}
+
+html[data-theme="dark"] {
+    --primary-color: #1a1919;
+    --secondary-color: white;
+}
+
+body {
+    background: var(--primary-color);
+    font-family: $default-font;
+}

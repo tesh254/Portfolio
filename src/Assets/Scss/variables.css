@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+html {
+  --primary-color: white;
+  --secondary-color: #1a1919; }
+
+html[data-theme="dark"] {
+  --primary-color: #1a1919;
+  --secondary-color: white; }
+
+body {
+  background: var(--primary-color);
+  font-family: "Roboto Mono", monospace; }
