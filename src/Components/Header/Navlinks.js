@@ -8,7 +8,7 @@ const Nav = () => (
                 <NavLink to="/about">About</NavLink>
             </li>
             <li>
-                <NavLink to="/about">Projects</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
                 <a href="https://werick.codes" target="_blank">Blog</a>

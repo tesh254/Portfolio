@@ -1,4 +1,5 @@
 import React from "react";
+import Me from "../../Assets/Imgs/me.png";
 import "./index.scss";
 
 const About = () => (
@@ -32,6 +33,7 @@ const About = () => (
           Andela
         </a>
       </p>
+      <img src={Me} alt="me"/>
       <span>
         Follow and reach out to me on twitter{" "}
         <a

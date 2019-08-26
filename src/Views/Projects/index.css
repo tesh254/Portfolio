@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+html {
+  --primary-color: white;
+  --secondary-color: #1a1919; }
+
+html[data-theme="dark"] {
+  --primary-color: #1a1919;
+  --secondary-color: white; }
+
+body {
+  background: var(--primary-color);
+  font-family: "Roboto Mono", monospace;
+  background-image: radial-gradient(var(--secondary-color) 10%, transparent 0), radial-gradient(var(--secondary-color) 10%, transparent 0);
+  background-size: 5px 5px;
+  background-position: 0 0, 15px 15px; }
+
+.projects-view {
+  display: flex;
+  justify-content: center; }
+  .projects-view section {
+    background: var(--primary-color);
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    margin: 20px;
+    width: 350px; }
+    .projects-view section h1 {
+      text-decoration: underline;
+      color: var(--secondary-color); }
+    .projects-view section .projects .project {
+      width: 100%;
+      text-align: left;
+      padding: 5px;
+      margin-bottom: 5px;
+      border-bottom: 2px dotted var(--secondary-color); }
+      .projects-view section .projects .project span, .projects-view section .projects .project h3 {
+        color: var(--secondary-color); }
+      .projects-view section .projects .project .stack ul {
+        display: flex;
+        justify-content: left;
+        list-style-type: none; }
+        .projects-view section .projects .project .stack ul li {
+          margin-right: 10px;
+          padding: 2px;
+          background: var(--secondary-color);
+          border-radius: 5px;
+          color: var(--primary-color); }
+      .projects-view section .projects .project .links a {
+        color: var(--secondary-color);
+        font-size: 18pt; }

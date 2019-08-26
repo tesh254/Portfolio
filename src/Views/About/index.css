@@ -40,3 +40,10 @@ body {
         list-style-type: square; }
         .about-view section p ul li {
           font-weight: bold; }
+    .about-view section img {
+      filter: grayscale(100%);
+      width: 100%;
+      transition: .3s all;
+      border-radius: 5px; }
+    .about-view section img:hover {
+      filter: none; }
