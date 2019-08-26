@@ -27,13 +27,19 @@ const About = () => (
       </p>
       <h3>Work</h3>
       <p>
-        I am currently a <span className="bold">Software Developer </span>
+        <span className="bold">Software Developer </span>
         at{" "}
-        <a href="https://andela.com" target="_blank" className="bold">
+        <a
+          href="https://andela.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bold"
+        >
           Andela
-        </a>
+        </a>{" "}
+        from <b>Dec 2018- Oct 2019</b>
       </p>
-      <img src={Me} alt="me"/>
+      <img src={Me} alt="me" />
       <span>
         Follow and reach out to me on twitter{" "}
         <a
@@ -41,6 +47,7 @@ const About = () => (
           class="twitter-follow-button"
           data-show-count="true"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Follow @wachira_dev
         </a>
