@@ -4,6 +4,7 @@ import Home from "./Views/Home/Home";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer";
 import DarkModeSwitch from "./Components/Switch";
+import About from "./Views/About";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <DarkModeSwitch />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
         </Switch>
         <Footer />
       </div>

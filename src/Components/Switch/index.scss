@@ -1,10 +1,19 @@
 @import "src/Assets/Scss/variables.scss";
 
 .switch-holder {
-    color: var(--secondary-color);
-    font-weight: bold;
-    margin-top: 1%;
-    font-size: 11pt;
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-top: 1%;
+  font-size: 11pt;
+  display: flex;
+  justify-content: center;
+
+  section {
+    background: var(--primary-color);
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+  }
 }
 
 /* CSS styling for our switch */

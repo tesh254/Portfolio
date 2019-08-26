@@ -9,13 +9,23 @@ html[data-theme="dark"] {
 
 body {
   background: var(--primary-color);
-  font-family: "Roboto Mono", monospace; }
+  font-family: "Roboto Mono", monospace;
+  background-image: radial-gradient(var(--secondary-color) 10%, transparent 0), radial-gradient(var(--secondary-color) 10%, transparent 0);
+  background-size: 5px 5px;
+  background-position: 0 0, 15px 15px; }
 
 .switch-holder {
   color: var(--secondary-color);
   font-weight: bold;
   margin-top: 1%;
-  font-size: 11pt; }
+  font-size: 11pt;
+  display: flex;
+  justify-content: center; }
+  .switch-holder section {
+    background: var(--primary-color);
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px; }
 
 /* CSS styling for our switch */
 /* This switch was styled with the help of w3schools */

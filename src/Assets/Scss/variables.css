@@ -9,4 +9,7 @@ html[data-theme="dark"] {
 
 body {
   background: var(--primary-color);
-  font-family: "Roboto Mono", monospace; }
+  font-family: "Roboto Mono", monospace;
+  background-image: radial-gradient(var(--secondary-color) 10%, transparent 0), radial-gradient(var(--secondary-color) 10%, transparent 0);
+  background-size: 5px 5px;
+  background-position: 0 0, 15px 15px; }

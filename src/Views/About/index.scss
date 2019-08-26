@@ -1,0 +1,41 @@
+@import "src/Assets/Scss/variables.scss";
+
+.about-view {
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  section {
+    background: var(--primary-color);
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    margin: 25px;
+    width: 350px;
+
+    h1, h3 {
+      text-decoration: underline;
+    }
+
+    p {
+      text-align: left;
+      border-bottom: 2px dotted var(--secondary-color);
+      padding-bottom: 15px;
+
+      .bold {
+        font-weight: bold;
+        text-decoration: underline;
+        color: inherit;
+      }
+
+      ul {
+        list-style-type: square;
+
+        li {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
