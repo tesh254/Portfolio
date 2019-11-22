@@ -81,6 +81,25 @@ const Projects = () => (
         </a>
       </div>
     </div>
+    <div className="project">
+      <h3 className="project-title">Lakra: Game Engine</h3>
+      <span className="description">
+        Basic Game engine built with Golang
+      </span>
+      <span className="stack">
+        <ul>
+          <li>Go</li>
+        </ul>
+      </span>
+      <div className="links">
+        <a
+          href="https://github.com/tesh254/lakra"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
   </div>
 );
 
