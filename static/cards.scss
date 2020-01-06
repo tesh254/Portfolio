@@ -1,0 +1,120 @@
+@import "./global.scss";
+
+.container {
+  font-family: $card-font;
+
+  .title {
+    font-size: 28pt;
+    color: white;
+    margin: 0 0 0 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .columns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .column {
+      width: 330px;
+      height: 100%;
+      margin: 5px;
+    }
+
+    .card-2 {
+      background: black;
+      color: white;
+      border-radius: 20px;
+      width: 300px;
+      height: 300px;
+      padding: 3%;
+
+      .card-2-title {
+        font-size: 1.5em;
+      }
+
+      .card-2-description {
+        font-family: $default-font;
+        color: grey;
+      }
+      
+      .card-2-icons {
+        font-size: 17pt;
+
+        a {
+          color: $purple-color;
+        }
+      }
+    }
+
+    .card:hover {
+        background: $purple-color;
+    }
+
+    .card {
+      position: relative;
+      text-align: center;
+      color: white;
+      background: black;
+      border-radius: 20px;
+      opacity: 0.9;
+      
+
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+        border-radius: 20px;
+      }
+
+      .card-text {
+        font-size: 2.5em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    font-family: $card-font;
+
+    .title {
+      font-size: 28pt;
+      color: white;
+      margin: 0 0 0 50px;
+    }
+
+    .cards {
+      display: flex;
+    //   justify-content: center;
+      width: 100%;
+
+      .card {
+        position: relative;
+        text-align: center;
+        color: white;
+        background: $purple-color;
+        border-radius: 20px;
+        // width: 330px;
+        // height: 500%;
+        margin: 5px;
+
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+          opacity: 0.6;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}

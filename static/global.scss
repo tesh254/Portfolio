@@ -1,0 +1,38 @@
+// Font imports
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:700&display=swap');
+
+// scss
+@import "./bulma.scss";
+
+// Scss variables
+$default-font: "Roboto Mono", monospace;
+$card-font: "Poppins", sans-serif;
+
+$purple-color: #916dd5;
+
+// toggle colors
+html {
+  //   --primary-color: white;
+  //   --secondary-color: #1a1919;
+  --primary-color: #1a1919 !important;
+  --secondary-color: white !important;
+  background: var(--primary-color);
+}
+
+html[data-theme="dark"] {
+  --primary-color: #1a1919 !important;
+  --secondary-color: white !important;
+  background: var(--primary-color);
+}
+
+body {
+  background: var(--primary-color);
+  font-family: $default-font;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 30px;
+}
