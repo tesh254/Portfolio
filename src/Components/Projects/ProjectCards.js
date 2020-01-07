@@ -100,6 +100,26 @@ const Projects = () => (
         </a>
       </div>
     </div>
+    <div className="project">
+      <h3 className="project-title">Araknet: Blockchain network</h3>
+      <span className="description">
+        Based on the Dark net program in the Startup show. Araknet is a blockchain network I started building to achieve anonimity on the web and peer to peer transactions built
+         entirely with Go. So far I have archieved transactions and addresses, yet to implement encrypted networks.
+      </span>
+      <span className="stack">
+        <ul>
+          <li>Go</li>
+        </ul>
+      </span>
+      <div className="links">
+        <a
+          href="https://github.com/tesh254/arakent"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
   </div>
 );
 
