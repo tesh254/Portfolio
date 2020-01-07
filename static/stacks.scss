@@ -1,0 +1,79 @@
+@import "./global.scss";
+
+.stacks {
+  margin: 25px;
+  .stack {
+    .stack-title {
+      font-family: $card-font;
+      color: white;
+    }
+    progress {
+      height: 7px;
+      background: $purple-color;
+
+      ::-webkit-progress-value {
+        -webkit-animation: bar-fill 10s;
+        width: 0px;
+      }
+    }
+    // Style the bar colors
+    progress::-webkit-progress-value {
+      background: $purple-color;
+    }
+
+    progress::-moz-progress-bar {
+      background: $purple-color;
+    }
+
+    // Animation Keyframes
+    @-webkit-keyframes bar-fill {
+      0% {
+        width: 0;
+      }
+    }
+
+    @keyframes bar-fill {
+      0% {
+        width: 0;
+      }
+    }
+  }
+}
+
+.work {
+  margin: 25px;
+  font-family: $card-font;
+  color: white;
+
+  .title {
+    color: white;
+    font-size: 20pt;
+  }
+
+  .work-list {
+    background: black;
+    padding: 1em;
+    border-radius: 15px;
+
+    .work-list-date {
+      font-size: 18pt;
+      color: white;
+    }
+
+    .work-list-company {
+      font-size: 16pt;
+      color: white;
+    }
+
+    ul {
+      color: white;
+      font-size: 10pt;
+      list-style: disc;
+      margin: 1em;
+
+      li {
+        margin: 1em;
+      }
+    }
+  }
+}

@@ -73,7 +73,7 @@
       src={project.images[0]}
       alt={project.title} />
     <section
-      class="product-details column is-half-mobile is-one-quarter-tablet
+      class="product-details column is-full-mobile is-one-quarter-tablet
       is-one-fifth-desktop is-one-fifth-widescreen is-one-fifth-fullhd">
       <p class="project-description">{project.description}</p>
       <section class="project-actions">
@@ -88,7 +88,7 @@
   <section class="screenshots columns is-mobile is-multiline">
     {#each project.images as image}
       <img
-        class="column is-one-quarter-mobile is-one-quarter-tablet is-one-quarter-desktop
+        class="column is-full-mobile is-one-quarter-tablet is-one-quarter-desktop
         is-one-quarter-widescreen is-one-quarter-fullhd"
         src={image}
         alt={project.title} />

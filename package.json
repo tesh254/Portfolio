@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
-    "build": "sapper build --legacy",
+    "build": "sapper export --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
@@ -16,7 +16,8 @@
     "compression": "^1.7.1",
     "polka": "next",
     "rollup-plugin-json": "^4.0.0",
-    "sirv": "^0.4.0"
+    "sirv": "^0.4.0",
+    "svelte-progress-bar": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

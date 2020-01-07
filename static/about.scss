@@ -1,0 +1,46 @@
+@import "./global.scss";
+
+.about-holder {
+  display: flex;
+  justify-content: center;
+  font-family: $card-font;
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+
+  .about {
+    span {
+      text-decoration: underline;
+    }
+    img {
+      border-radius: 15px;
+      height: 500px;
+    }
+
+    p {
+        font-size: 12pt;
+    }
+  }
+}
+
+.about-info {
+  display: flex;
+  justify-content: center;
+  font-family: $card-font;
+  width: 500px;
+  color: white;
+}
+
+.email-to {
+  padding: 5px 15px;
+  width: 80px;
+  margin: 5px;
+  color: black;
+  background: white;
+  border-radius: 25px;
+  font-size: 14pt;
+}
+
+a {
+    text-decoration: none;
+}

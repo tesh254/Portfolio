@@ -1,0 +1,86 @@
+@import "./global.scss";
+
+.home {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.typewriter {
+  padding: 15% 0;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 25px;
+  width: 320px;
+}
+.typewriter h1 {
+  color: var(--secondary-color);
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 1rem;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.2em solid var(--secondary-color);
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 2% auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--secondary-color);
+  }
+}
+
+.comms {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.comms h3 {
+  text-align: center;
+  font-weight: bold;
+}
+.comms ul {
+  list-style-type: none;
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  color: var(--secondary-color);
+}
+.comms ul li {
+  cursor: pointer;
+  margin: 5px;
+}
+.comms ul li a {
+  color: var(--secondary-color);
+  padding: 2px;
+  font-weight: bold;
+  font-size: 1em;
+}

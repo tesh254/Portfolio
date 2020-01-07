@@ -2651,6 +2651,11 @@ svelte-preprocess@^3.3.0:
     detect-indent "^6.0.0"
     strip-indent "^2.0.0"
 
+svelte-progress-bar@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/svelte-progress-bar/-/svelte-progress-bar-2.0.0.tgz#9e3f250cd6bb1426e79ee8e49c2aff0c731d7887"
+  integrity sha512-2v3sdoMAAjtxG+SrQVyJKws9R84TxUErlpN9AbljiCRsyVj4+wSOFyI57ABihvOvLkpjYOed1sdzn27boLI4eg==
+
 svelte@^3.0.0:
   version "3.16.7"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.16.7.tgz#9ade80a4bbbac95595c676dd817222f632fa2c07"
