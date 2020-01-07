@@ -188,20 +188,22 @@
 <section class="container">
   <section class="columns is-mobile is-multiline cards">
     {#each projects.live as project}
-      <section
+      <a
+        href={`/live/${project.slug}`}
         class="card column is-half-mobile is-one-quarter-tablet
         is-one-fifth-desktop is-one-fifth-widescreen is-one-fifth-fullhd">
         <img src={project.images[0]} alt={project.title} />
         <span class="card-text">{project.title}</span>
-      </section>
+      </a>
     {/each}
     {#each projects.programs as project}
-      <section
+      <a
+        href={`/programs/${project.slug}`}
         class="card column is-full-mobile is-one-quarter-tablet
         is-one-quarter-desktop is-one-quarter-widescreen is-one-quarter-fullhd">
         <img src={project.images[0]} alt={project.title} />
         <span class="card-text">{project.title}</span>
-      </section>
+      </a>
     {/each}
   </section>
   <span class="title">Tutorials</span>
@@ -216,10 +218,12 @@
         <span class="card-2-description">{project.description}</span>
         <div class="card-2-icons">
           <a href={project.github}>
-            <i class="fab fa-github" /> repo
+            <i class="fab fa-github" />
+            repo
           </a>
           <a href={project.url ? project.url : ''}>
-            <i class="fas fa-link" /> link
+            <i class="fas fa-link" />
+            link
           </a>
         </div>
       </section>

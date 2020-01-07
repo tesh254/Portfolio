@@ -1,0 +1,57 @@
+@import "./global.scss";
+
+img {
+    border-radius: 25px;
+}
+
+.project-holder {
+  //   display: flex;
+  //   justify-content: center;
+  font-family: $card-font;
+  margin: 1rem;
+
+  .title {
+    color: white;
+    font-size: 20pt;
+  }
+
+  .project {
+    margin-top: 25px;
+    // display: flex;
+    // justify-content: center;
+
+    .project-image {
+      width: 700px;
+      border-radius: 15px !important;
+    }
+
+    .product-details {
+      p {
+        font-size: 1em;
+        color: white;
+      }
+
+      .project-actions {
+        margin: 25px;
+
+        a.project-demo {
+          padding: 5px 15px;
+          width: 80px;
+          margin: 5px;
+          color: black;
+          background: white;
+          border-radius: 25px;
+        }
+
+        a.project-repo {
+          padding: 5px 15px;
+          width: 80px;
+          margin: 5px;
+          color: white;
+          background: $purple-color;
+          border-radius: 25px;
+        }
+      }
+    }
+  }
+}
