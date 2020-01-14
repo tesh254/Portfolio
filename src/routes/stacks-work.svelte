@@ -41,6 +41,12 @@
       level: 80,
       color: "#5edfff",
       type: "Language"
+    },
+    {
+      stack: "Laravel/PHP",
+      level: 70,
+      color: "#ff5d6c",
+      type: "Framework"
     }
   ];
 </script>
