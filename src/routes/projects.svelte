@@ -77,6 +77,29 @@
         url: "https://p2f.werick.codes"
       },
       {
+        slug: "fnista",
+        title: "Fnista",
+        tags: ["laravel", "php"],
+        description:
+          "Fnista is a subscription app built with Laravel and stripe to handle monthly subscriptions. The project makes use of Laravel/Cashier for subscription and Eloquent for database handling",
+        images: [
+          "https://res.cloudinary.com/duoxba7n1/image/upload/v1578992116/Screenshot_at_2020-01-14_11-49-20.png",
+          "https://res.cloudinary.com/duoxba7n1/image/upload/v1578992113/Screenshot_at_2020-01-14_11-50-21.png",
+          "https://res.cloudinary.com/duoxba7n1/image/upload/v1578992113/Screenshot_at_2020-01-14_11-51-06.png",
+          "https://res.cloudinary.com/duoxba7n1/image/upload/v1578992112/Screenshot_at_2020-01-14_11-49-41.png"
+        ],
+        creationDate: "09 January 2020",
+        launchDate: "14 January 2020",
+        versions: [
+          {
+            version: 1,
+            stacks: ["laravel", "php"]
+          }
+        ],
+        github: "https://github.com/tesh254/subscription_app",
+        url: "http://fnista.herokuapp.com/"
+      },
+      {
         slug: "rick-and-morty-api",
         title: "Rick & Morty API",
         tags: ["express", "nodejs", "react"],
