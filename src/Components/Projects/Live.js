@@ -14,7 +14,7 @@ const Live = () => (
         </ul>
       </span>
       <div className="links">
-        <a href="https://werick.codes" target="_blank">
+        <a href="https://bywachira.com" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-link"></i>
         </a>
       </div>

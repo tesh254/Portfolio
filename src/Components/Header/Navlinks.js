@@ -11,7 +11,7 @@ const Nav = () => (
                 <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-                <a href="https://werick.codes" target="_blank">Blog</a>
+                <a href="https://bywachira.com" target="_blank" rel="noopener noreferrer">Blog</a>
             </li>
         </ul>
     </div>

@@ -10,7 +10,7 @@ const About = () => (
         Hi there, I am <span className="bold">Erick Wachira</span>. I really
         enjoy working with modern web technologies like React, Next, Node, and
         Firebase, I share what I learn about them on my personal{" "}
-        <a href="https://werick.codes" className="bold">
+        <a href="https://bywachira.com" className="bold">
           blog
         </a>
       </p>

@@ -17,6 +17,7 @@ const Projects = () => (
         <a
           href="https://github.com/werickblog/simple_dark_theme_react_app"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -37,6 +38,7 @@ const Projects = () => (
         <a
           href="https://github.com/werickblog/cron_jobs_with_nodejs"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -56,6 +58,7 @@ const Projects = () => (
         <a
           href="https://github.com/werickblog/docker_nodejs_app"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -76,6 +79,7 @@ const Projects = () => (
         <a
           href="https://github.com/werickblog/next_with_environment_variables"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -95,6 +99,7 @@ const Projects = () => (
         <a
           href="https://github.com/tesh254/lakra"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -115,6 +120,7 @@ const Projects = () => (
         <a
           href="https://github.com/tesh254/arakent"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fab fa-github"></i>
         </a>
